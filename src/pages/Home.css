@@ -1,0 +1,106 @@
+#selected {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#sectionSelect {
+  padding-top: 3em;
+  padding-bottom: 0.5em;
+  font-size: 1.7em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border-bottom: 5px solid white; */
+}
+
+#projectRow {
+  padding-top: 1em;
+  background-color: black;
+  border-radius: 8px;
+  padding: 50px;
+  margin-bottom: 30px;
+}
+
+.activeCompany {
+  margin: 22px 15px;
+  border-bottom: 3px solid white;
+  height: 100px;
+  opacity: 100%;
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+.inactiveCompany {
+  margin: 22px 15px;
+  height: 100px;
+  opacity: 50%;
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+.activeCompany:hover {
+  opacity: 100%;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.inactiveCompany:hover {
+  opacity: 100%;
+  animation-name: lightUp;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.inactiveCompany :not(:hover) {
+  opacity: 50%;
+  animation-name: dimDown;
+  animation-duration: 100s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  
+}
+
+.sectionTitle {
+  display: block;
+  border-bottom: 3px solid;
+  border-color: white;
+  text-align: left;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+#titleRow {
+  overflow-x: scroll;
+}
+
+@keyframes lightUp {
+  from {
+    opacity: 50%;
+  }
+
+  to {
+    opacity: 100%;
+  }
+}
+@keyframes dimDown {
+  from {
+    opacity: 100%;
+  }
+
+  to {
+    opacity: 50%;
+  }
+}
+@keyframes underLine {
+  from {
+    text-decoration: none;
+  }
+
+  to {
+    text-decoration: underline;
+  }
+}

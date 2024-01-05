@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6d75c8cf.css",
+    "main.js": "/static/js/main.dd1ff4fa.js",
+    "static/media/BenBDay.jpeg": "/static/media/BenBDay.73286c6cd7bda340ccd4.jpeg",
+    "static/media/KirbyConverse2.jpg": "/static/media/KirbyConverse2.1acd99ad4e1250dd2e2a.jpg",
+    "static/media/AshBday.jpg": "/static/media/AshBday.174d0c524821e4c88615.jpg",
+    "static/media/DavidHeadshot2.jpg": "/static/media/DavidHeadshot2.af3089cb3432bb849e68.jpg",
+    "static/media/CFTH.jpg": "/static/media/CFTH.4d5eec3d59e03d3c31f8.jpg",
+    "static/media/SpiderDerick.jpeg": "/static/media/SpiderDerick.41808df50934b8b9998c.jpeg",
+    "static/media/JayPR.JPG": "/static/media/JayPR.6cff0b338419ed683750.JPG",
+    "static/media/JrBlueLight.jpg": "/static/media/JrBlueLight.d9713810a0703a886b8c.jpg",
+    "static/media/JinyBday.JPG": "/static/media/JinyBday.2635195db812857ed58e.JPG",
+    "static/media/lexusDrive.jpeg": "/static/media/lexusDrive.748c04a46b426eed4db6.jpeg",
+    "static/media/NicoBabyShower.JPG": "/static/media/NicoBabyShower.b3da9e0e6dfe38fff1d7.JPG",
+    "static/media/ChrisSkate.JPG": "/static/media/ChrisSkate.538dba3a46b164136e56.JPG",
+    "static/media/angeloLift.jpeg": "/static/media/angeloLift.81b246e70776b77bf89f.jpeg",
+    "static/media/FrankGrad.jpg": "/static/media/FrankGrad.10e286119eaffdd73f89.jpg",
+    "static/media/PeterGrad.JPG": "/static/media/PeterGrad.d6805fbeae700dbc8a00.JPG",
+    "static/media/remake2.jpeg": "/static/media/remake2.73ead469f2dd2159f9e1.jpeg",
+    "static/media/resume.pdf": "/static/media/resume.bc32726f2f6f042c0726.pdf",
+    "static/media/ADP-logo.png": "/static/media/ADP-logo.91c4d511ced49a9c000f.png",
+    "static/media/MeAdventureTimeFinal.png": "/static/media/MeAdventureTimeFinal.6f9c1c160a0e6ab969cd.png",
+    "static/media/Colgate-Palmolive-Logo.png": "/static/media/Colgate-Palmolive-Logo.9309a341cbe42185642e.png",
+    "static/media/pulluplogorounded.png": "/static/media/pulluplogorounded.a86723c3e9fe6a891ec5.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.6d75c8cf.css.map": "/static/css/main.6d75c8cf.css.map",
+    "main.dd1ff4fa.js.map": "/static/js/main.dd1ff4fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d75c8cf.css",
+    "static/js/main.dd1ff4fa.js"
+  ]
+}

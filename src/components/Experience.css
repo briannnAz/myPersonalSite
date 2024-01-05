@@ -1,0 +1,173 @@
+.container {
+  width: 95%;
+  margin: auto;
+  padding: 20px 0;
+}
+.expContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 450px;
+}
+
+.container2 {
+  width: 30%;
+}
+
+.descContainer {
+  text-align: center;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  width: 70%;
+  margin-left: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-right: 20px;
+  font-size: 25px;
+  text-align: left;
+  font-weight: lighter;
+  overflow-y: scroll;
+}
+
+.expDetail {
+  margin: 30px 30px 30px;
+  overflow: scroll;
+  text-decoration: double;
+  vertical-align: middle;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0%;
+    margin-left:200px
+  }
+
+  to {
+    opacity: 100%;
+    margin-left: 2px;
+  }
+}
+
+.expDetail li {
+    margin: 20px 2px;
+    color: rgb(62, 62, 62);
+    overflow: hidden;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    text-decoration: dotted;
+}
+.expDetail h2 {
+  font-weight:bold;
+  color:#dd0000a8;
+  /* text-decoration: underline; */
+}
+
+.textBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+}
+.textBox div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.activeCompany{
+  margin: 22px 15px;
+  height: 100px;
+  opacity: 100%;
+}
+.inactiveCompany{
+  margin: 22px 15px;
+  height: 100px;
+  opacity: 50%;
+}
+
+.inactiveCompany:hover{
+  opacity: 100%;
+  animation-name: lightUp;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  cursor: pointer;
+}
+.inactiveCompany :not(:hover){
+  opacity: 50%;
+  animation-name: dimDown;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+
+@keyframes lightUp {
+  from {
+    opacity: 50%;
+  }
+
+  to {
+    opacity: 100%;
+  }
+}
+@keyframes dimDown {
+  from {
+    opacity: 100%;
+  }
+
+  to {
+    opacity: 50%;
+  }
+}
+
+
+.experienceBox h4 {
+  margin: auto;
+}
+
+.experienceBox img {
+    max-width: 125px;
+    margin: auto;
+}
+
+#PullupWork img {
+  max-width: 80px;
+}
+
+.tools {
+  display: inline;
+  text-decoration: double;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+  text-align: center;
+  color: black;
+  width: 100%;
+}
+.expBox {
+    margin: auto;
+    padding-top: 10px
+}
+
+#ADPwork {
+    background-image: url(./../assets/ADP-logo.png);
+}
+
+#titleText{
+  color: rgba(0, 0, 0, 0.475);
+  margin: 30px 5px;
+  font-size: 55px;
+}
+

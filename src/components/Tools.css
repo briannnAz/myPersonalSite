@@ -1,0 +1,127 @@
+#mainContainer::after{
+  content: "Scroll in each box to see all the tools.";
+  margin: auto;
+  color: white;
+  opacity: 0%;
+  animation-duration: 1s;
+  animation-name: fadeOut;
+  animation-iteration-count: 1;
+  /* animation-direction: alternate; */
+}
+
+#mainContainer:hover::after {
+  content: "Scroll in each box to see all the tools.";
+  margin: auto;
+  color: white;
+  opacity: 100%;
+  animation-duration: 1s;
+  animation-name: fadeIn;
+  /* animation-iteration-count: 1; */
+  /* animation-direction: alternate; */
+}
+.container {
+  width: 95%;
+  /* display: flex; */
+  margin: auto;
+  padding: 20px 0;
+  overflow-x: scroll;
+  /* scrollbar-color: rebeccapurple green; */
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+}
+
+/* .container::after {
+    content: "Scroll in each box to see all the tools.";
+    margin: auto;
+    color: white;
+    opacity: 0%;
+    animation-duration: 1s;
+    animation-name: fadeOut;
+    animation-iteration-count: 1;
+  }
+.container:hover::after {
+  content: "Scroll in each box to see all the tools.";
+  margin: auto;
+  color: white;
+  opacity: 100%;
+  animation-duration: 1s;
+  animation-name: fadeIn;
+} */
+
+.textBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* height: 250px; */
+  margin: auto;
+  color: red;
+}
+.textBox div {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  justify-content: space-between;
+  /* height: 100px; */
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: white;
+  color: red;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 10px grey;
+}
+
+.tools {
+  display: inline;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+  text-align: center;
+  color: black;
+  width: 100%;
+  overflow: scroll;
+  height: 250px;
+}
+
+.toolItem {
+  font-size: 25px;
+  margin: 5px;
+  border: 3px grey;
+}
+
+.toolTitle h2 {
+  font-weight: bold;
+  color: #dd0000a8;
+}
+
+#titleText{
+  color: rgba(0, 0, 0, 0.475);
+  margin: 30px 5px;
+  font-size: 55px;
+}
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 100%;
+  }
+}
+
+@keyframes fadeOut {
+    from {
+      opacity: 50%;
+    }
+  
+    to {
+      opacity: 0%;
+    }
+  }

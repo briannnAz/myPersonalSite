@@ -1,0 +1,54 @@
+{
+    "Experience": {
+        "ADP": [
+            "Deploy to Docker Containers with Jenkins",
+            "Manage No SQL & SQL Databases",
+            "Coordinate & Plan Agile Sprints",
+            "Fullstack JS Web Development",
+            "Managed data from RESTful API Calls"
+        ],
+        "Colgate": [
+            "Planned recreation of Colgate Smart Label Pages",
+            "Utilized Adobe Experience Manager to create UI templates",
+            "Deployed project for 300+ products "
+        ],
+        "Pullup": [
+            "Created Mock Ups for website redesign",
+            "Utilized SquareSpace to implement changes",
+            "Created Multimedia content for Social Media"
+        ]
+    },
+    "Tools": {
+        "designTools": [
+            "Figma",
+            "Sketch",
+            "AdobeXD",
+            "Invision"
+        ],
+        "developerTools": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Angular",
+            "React",
+            "BootStrap",
+            "Node",
+            "Express",
+            "REST",
+            "NoSQL",
+            "Cassandra",
+            "SQL",
+            "Oracle",
+            "Python",
+            "GIT",
+            "Bitbucket"
+        ],
+        "mediaTools": [
+            "GIMP 2",
+            "Adobe Photoshop",
+            "Adobe Lightroom",
+            "Adobe Premiere",
+            "Hitfilm Express"
+        ]
+    }
+}

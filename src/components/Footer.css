@@ -1,0 +1,88 @@
+#socialLinks {
+    font-size: 40px;
+    margin: auto;
+    display: inline-flex;
+    flex-direction: row;
+    color: white;
+    margin-bottom:20px;
+}
+.link {
+    font-weight:bolder;
+    margin: auto;
+    padding:2px 15px;
+    color: white;
+    /* border-bottom: 5px solid white; */
+}
+.link a{
+    text-decoration: none;
+    color:white;
+}
+
+.link a:hover {
+    color: lightgray;
+    border-bottom: 4px solid lightgray;
+    animation-name: fadeColor;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+.footerText {
+    font-weight:bolder;
+    margin: auto;
+    padding:15px 5px;
+    color: white;
+}
+
+@keyframes fadeColor {
+    from {
+      font-size: 40px;
+      opacity: 50%;
+      color: white;
+      border-bottom: 0px solid lightgray;
+    }
+  
+    to {
+      opacity: 100%;
+      color: lightgray;
+      font-size:50px;
+      border-bottom: 4px solid lightgray;
+    }
+  }
+
+  #reactPower {
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    font-style:italic;
+    margin-bottom: 5px;
+  }
+
+  .App-logo {
+    height: 5vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 5s linear;
+      /* animation: App-logo-spin-to-appear infinite 10s linear; */
+    }
+  }
+  @keyframes App-logo-spin {
+    0% {
+      transform: rotate(0deg);
+      opacity: 100%;
+      margin-left: 20px;
+    }
+    50% {
+      transform: rotate(360deg);
+      opacity: 0%;
+      margin-right: 40px;
+    }
+    100% {
+      transform: rotate(720deg);
+      opacity: 100%;
+      margin-left: 20px;
+    }
+  }
