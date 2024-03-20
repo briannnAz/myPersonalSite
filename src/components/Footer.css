@@ -1,8 +1,7 @@
 #socialLinks {
-    font-size: 40px;
-    margin: auto;
     display: inline-flex;
     flex-direction: row;
+    align-items: flex-start;
     color: white;
     margin-bottom:20px;
 }
@@ -36,7 +35,6 @@
 
 @keyframes fadeColor {
     from {
-      font-size: 40px;
       opacity: 50%;
       color: white;
       border-bottom: 0px solid lightgray;
@@ -45,7 +43,6 @@
     to {
       opacity: 100%;
       color: lightgray;
-      font-size:50px;
       border-bottom: 4px solid lightgray;
     }
   }
@@ -53,13 +50,19 @@
   #reactPower {
     display: block;
     flex-direction: row;
-    align-items: center;
+    align-items: left;
     font-style:italic;
     margin-bottom: 5px;
+    font-size:small;
   }
 
   .App-logo {
     height: 5vmin;
+    pointer-events: none;
+  }
+
+  .Link-logo {
+    height: 3vmin;
     pointer-events: none;
   }
   

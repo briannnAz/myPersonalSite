@@ -4,9 +4,9 @@ import Tools from "../components/Tools";
 import Experience from "../components/Experience";
 import Projects from "../components/Projects";
 import { Row, Col } from "react-bootstrap";
-import "./Home.css";
+import "./Main.css";
 
-function Home() {
+function Creative() {
   let homeViews = {
     tools: true,
     experience: false,
@@ -51,11 +51,9 @@ function Home() {
             <div id="sectionSelect">
               <div
                 onClick={(e) => contentPicker("tools", e)}
-                className={`${
-                  showData.tools ? "activeMenu" : "inactiveMenu"
-                }`}
+                className={`${showData.tools ? "activeMenu" : "inactiveMenu"}`}
               >
-                Skills
+                Design
               </div>
             </div>
           </Col>
@@ -67,7 +65,7 @@ function Home() {
                   showData.experience ? "activeMenu" : "inactiveMenu"
                 }`}
               >
-                Work
+                Photo
               </div>
             </div>
           </Col>
@@ -79,12 +77,12 @@ function Home() {
                   showData.projects ? "activeMenu" : "inactiveMenu"
                 }`}
               >
-                Create
+                Video
               </div>
             </div>
           </Col>
         </Row>
-        <Row>
+        {/* <Row>
           <Col>
             <div>{showData.tools && <Tools />}</div>
           </Col>
@@ -98,10 +96,10 @@ function Home() {
 
         <Row>
           <div>{showData.projects && <Projects />}</div>
-        </Row>
+        </Row> */}
       </>
     </div>
   );
 }
 
-export default Home;
+export default Creative;

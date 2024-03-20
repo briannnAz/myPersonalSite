@@ -3,6 +3,10 @@ import "./Footer.css";
 import logo from "./../logo.svg";
 import { Row, Col } from "react-bootstrap";
 import myResume from "./../assets/resume.pdf";
+import LinkedinLogo from "./../assets/linkedin-logo.png";
+import ContactIcon from "./../assets/contact-us.png";
+import GithubLogo from "./../assets/github.png";
+import ResumeIcon from "./../assets/google-docs.png";
 
 function Footer() {
   const Mailto = ({ email, subject = "", body = "", children }) => {
@@ -18,34 +22,35 @@ function Footer() {
         maxHeight: "fit-content",
         color: "white",
         width: "100%",
-        margin: "auto",
-        paddingTop: "25px",
+        paddingTop: "400px",
+        paddingBottom: "25px",
         backgroundColor: "black",
       }}
     >
-      <div> - Getting Better One Step At A Time - </div>
       <div id="socialLinks">
-        <Row>
-          <Col lg="3" sm="12">
+        <Row lg={4}>
+          <Col>
             <div className="link">
-              <a href="https://bitbucket.org/briannnaz/mypersonalsite/src/develop/">
-                Bitbucket
+              <a href="https://github.com/briannnAz">
+                <img src={GithubLogo} className="Link-logo" alt="github" />
               </a>
             </div>
           </Col>
-          <Col lg="3" sm="12">
+          <Col>
             <div className="link">
-              <a href="https://www.linkedin.com/in/brian-azubuike">Linkedin</a>
+              <a href="https://www.linkedin.com/in/brian-azubuike">
+                <img src={LinkedinLogo} className="Link-logo" alt="linkedin" />
+              </a>
             </div>
           </Col>
-          <Col lg="3" sm="12">
+          <Col>
             <div className="link">
               <a href={myResume} download={"BrianAzubuikeResume.pdf"}>
-                Resume
+                <img src={ResumeIcon} className="Link-logo" alt="resume" />
               </a>
             </div>
           </Col>
-          <Col lg="3" sm="12">
+          <Col>
             <div className="link">
               <Mailto
                 email="brian.azubuike@gmail.com"
@@ -53,7 +58,7 @@ function Footer() {
                 body="Hey I saw you're website and decided to reach out."
               >
                 {" "}
-                Contact
+                <img src={ContactIcon} className="Link-logo" alt="contact" />
               </Mailto>
             </div>
           </Col>
@@ -63,7 +68,6 @@ function Footer() {
         <div>Powered By React</div>
         <img src={logo} className="App-logo" alt="logo" />
       </div>
-      <div className="footerText">&#169;2022 Copyright</div>
     </div>
   );
 }

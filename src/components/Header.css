@@ -17,7 +17,7 @@
 }
 
 #socialLinkss {
-    font-size: 40px;
+    font-size: 20px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -48,7 +48,7 @@
 @keyframes fadeColors {
     from {
       /* margin-right: 20%; */
-      font-size: 40px;
+      font-size: 20px;
       opacity: 50%;
       color: rgba(0, 0, 0, 0.646);
       border-bottom: 0px solid rgba(0, 0, 0, 0.646);
@@ -57,7 +57,7 @@
     to {
       opacity: 100%;
       color: #ff4848a8;
-      font-size:50px;
+      font-size:40px;
       border-bottom: 4px solid #ff4848a8;
     }
   }

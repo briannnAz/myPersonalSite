@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 450px;
+  height: 555px;
 }
 
 .container2 {
@@ -22,10 +22,10 @@
   color: black;
   width: 70%;
   margin-left: 20px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-right: 20px;
-  font-size: 25px;
+  font-size: 15px;
   text-align: left;
   font-weight: lighter;
   overflow-y: scroll;
@@ -46,7 +46,7 @@
 
   to {
     opacity: 100%;
-    margin-left: 2px;
+    margin-left: 0;
   }
 }
 
@@ -161,13 +161,20 @@
     padding-top: 10px
 }
 
-#ADPwork {
-    background-image: url(./../assets/ADP-logo.png);
-}
 
 #titleText{
   color: rgba(0, 0, 0, 0.475);
-  margin: 30px 5px;
-  font-size: 55px;
+  margin: 10px 5px;
+  font-size: 35px;
 }
+
+.ignImage img {
+  width: 40%;
+}
+
+.pullupImage img {
+  width: 40%;
+}
+
+
 
