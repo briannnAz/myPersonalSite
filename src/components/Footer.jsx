@@ -66,7 +66,7 @@ function Footer() {
       </div>
       <div id="reactPower">
         <div>Powered By React</div>
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <img src={logo} className="App-logo" alt="logo" />
       </div>
     </div>
   );
