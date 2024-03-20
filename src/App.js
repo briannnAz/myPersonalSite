@@ -11,43 +11,7 @@ function App() {
     <ThemeProvider
       breakpoints={["xxxl", "xxl", "xl", "lg", "md", "sm", "xs", "xxs"]}
       minBreakpoint="xxs"
-    >
-      <div className="App">
-        {/* <Header /> */}
-
-        <header className="App-header">
-          <Row>
-            <Col lg="5" sm="12">
-              <div id="headerText">
-                <Row id="welcomeText">
-                  <h3>Hi I'm </h3>
-                  <h1>
-                    <bold>Brian Azubuike.</bold>
-                  </h1>
-                </Row>
-
-                <h4 className="mainText">
-                  <strong>Designer</strong>.
-                </h4>
-                <h4 className="mainText">
-                  <strong>Developer</strong>.
-                </h4>
-                <h4 className="mainText">
-                  <strong>Creator</strong>.
-                </h4>
-                <Footer />
-              </div>
-            </Col>
-            <Col lg="7" sm="12">
-              <div className="homeContainer">
-                <Home />
-              </div>
-            </Col>
-          </Row>
-        </header>
-        <body></body>
-      </div>
-    </ThemeProvider>
+    ></ThemeProvider>
   );
 }
 

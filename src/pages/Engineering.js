@@ -4,7 +4,7 @@ import Home from "./Home";
 import Footer from "../components/Footer";
 import { Row, Col } from "react-bootstrap";
 import ThemeProvider from "react-bootstrap/ThemeProvider";
-// import MePic from "./assets/meCasual.png";
+import MePic from "./../assets/meCasual.png";
 
 function Engineering() {
   return (
