@@ -1,6 +1,5 @@
 import { React, useState } from "react";
 import Tools from "../components/Tools";
-// import Header from "../components/Header";
 import Experience from "../components/Experience";
 import Projects from "../components/Projects";
 import { Row, Col } from "react-bootstrap";
@@ -38,66 +37,63 @@ function Home() {
     }));
   }
   return (
-    <div
-      style={
-        {
-          // marginTop: "25px",
-        }
-      }
-    >
+    <div>
       <>
         <Row id="titleRow">
           <Col lg="4">
             <div id="sectionSelect">
-              <div
+              <a
                 onClick={(e) => contentPicker("tools", e)}
-                className={`${
-                  showData.tools ? "activeMenu" : "inactiveMenu"
-                }`}
+                href="#toolsSection"
+                className={`${showData.tools ? "activeMenu" : "inactiveMenu"}`}
               >
                 Skills
-              </div>
+              </a>
             </div>
           </Col>
           <Col lg="4">
             <div id="sectionSelect">
-              <div
+              <a
                 onClick={(e) => contentPicker("experience", e)}
+                href="#experienceSection"
                 className={`${
                   showData.experience ? "activeMenu" : "inactiveMenu"
                 }`}
               >
                 Work
-              </div>
+              </a>
             </div>
           </Col>
           <Col lg="4">
             <div id="sectionSelect">
-              <div
+              <a
                 onClick={(e) => contentPicker("projects", e)}
+                href="#projectsSection"
                 className={`${
                   showData.projects ? "activeMenu" : "inactiveMenu"
                 }`}
               >
                 Create
-              </div>
+              </a>
             </div>
           </Col>
         </Row>
-        <Row>
-          <Col>
-            <div>{showData.tools && <Tools />}</div>
-          </Col>
-        </Row>
+        <Row id="contentBox">
+          <Row id="toolsSection">
+            <Col>
+              <Tools />
+            </Col>
+          </Row>
 
-        <Row>
-          <Col>
-            <div>{showData.experience && <Experience />}</div>
-          </Col>
-        </Row>
+          <Row id="experienceSection">
+            <Col>
+              <Experience />
+            </Col>
+          </Row>
 
-        <Row>
-          <div>{showData.projects && <Projects />}</div>
+          <Row id="projectsSection">
+            <Projects />
+          </Row>
         </Row>
       </>
     </div>

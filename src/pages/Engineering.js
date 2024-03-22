@@ -1,6 +1,5 @@
 import "./Main.css";
 import Home from "./Home";
-// import Header from './components/Header';
 import Footer from "../components/Footer";
 import { Row, Col } from "react-bootstrap";
 import ThemeProvider from "react-bootstrap/ThemeProvider";
@@ -13,24 +12,15 @@ function Engineering() {
       minBreakpoint="xxs"
     >
       <div className="App">
-        {/* <Header /> */}
-
         <header className="App-header">
           <Row>
-            <Col lg="5" sm="12">
+            <Col lg="4" sm="12">
               <div id="headerText">
                 <Row id="welcomeText">
-                  {/* <Col className="titleItems" lg="4" sm="12"> */}
                   <h3>Hi I'm </h3>
                   <h1>
                     <bold>Brian Azubuike.</bold>
                   </h1>
-                  {/* <img alt="cartoon me" src={MePic} /> */}
-
-                  {/* </Col> */}
-                  {/* <Col className="titleItems" lg="6" sm="12">
-                    <img alt="cartoon me" src={MePic} height="550px" />
-                  </Col> */}
                 </Row>
 
                 <h4 className="mainText">
@@ -45,7 +35,7 @@ function Engineering() {
                 <Footer />
               </div>
             </Col>
-            <Col lg="7" sm="12">
+            <Col lg="8" sm="12">
               <div className="homeContainer">
                 <Home />
               </div>

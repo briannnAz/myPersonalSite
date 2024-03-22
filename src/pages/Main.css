@@ -7,29 +7,17 @@
 }
 
 .App-header {
-  /* Font must be changes here for the app */
-  /* font-family: 'Josefin Sans', sans-serif; */
   padding: 0 96px;
   margin: 0 130px;
   font-family: "Poppins", sans-serif;
-  min-height: 700px;
-  max-height: fit-content;
+  height: 1035px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  /* background-color: rgb(203, 203, 203); */
   background-color: black;
-  /* background:  */
-  /* linear-gradient(100deg, #f8f9fa 10%, rgba(255, 255, 255, 0) 10%), */
-  /* linear-gradient(170deg, #dd0000a8 60%, rgb(244, 244, 244) 25%) */
-  /* linear-gradient(170deg, #dd0000a8 60%, rgb(44, 44, 44) 25%) */
-  /* linear-gradient(180deg, #fff 14%, rgba(255, 255, 255, 0) 10%),
-    linear-gradient(180deg, #fff 14%, rgba(255, 255, 255, 0) 10%),
-    linear-gradient(180deg, #000 33%, rgba(0, 0, 0, 0) 20%); */
-  /* cornflowerblue; */
 }
 
 .App-link {
@@ -46,7 +34,6 @@
   justify-content: "center";
   align-items: "center";
   flex-grow: "1";
-  /* background: "linear-gradient(180deg, #FF6666 50%, #fdcd3b 50%)"; */
   width: 100%;
   height: 100%;
   padding-bottom: 5px;

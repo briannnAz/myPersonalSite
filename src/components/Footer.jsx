@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import logo from "./../logo.svg";
 import { Row, Col } from "react-bootstrap";
 import myResume from "./../assets/resume.pdf";
 import LinkedinLogo from "./../assets/linkedin-logo.png";
@@ -63,10 +62,6 @@ function Footer() {
             </div>
           </Col>
         </Row>
-      </div>
-      <div id="reactPower">
-        <div>Powered By React</div>
-        <img src={logo} className="App-logo" alt="logo" />
       </div>
     </div>
   );
