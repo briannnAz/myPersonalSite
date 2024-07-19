@@ -1,104 +1,47 @@
-import { React, useState } from "react";
-import Tools from "../components/Tools";
-// import Header from "../components/Header";
-import Experience from "../components/Experience";
-import Projects from "../components/Projects";
-import { Row, Col } from "react-bootstrap";
 import "./Main.css";
+import CreativeHome from "./CreativeHome";
+import Footer from "../components/FreeFooter";
+import { Row, Col } from "react-bootstrap";
+import ThemeProvider from "react-bootstrap/ThemeProvider";
+// import MePic from "./../assets/meCasual.png";
 
 function Creative() {
-  let homeViews = {
-    tools: true,
-    experience: false,
-    projects: false,
-  };
-
-  const [showData, setShowData] = useState(homeViews);
-
-  function contentPicker(type) {
-    console.log(type);
-    let active = {};
-
-    if (type === "tools") {
-      active.tools = true;
-      active.experience = false;
-      active.projects = false;
-    } else if (type === "experience") {
-      active.tools = false;
-      active.experience = true;
-      active.projects = false;
-    } else if (type === "projects") {
-      active.tools = false;
-      active.experience = false;
-      active.projects = true;
-    }
-    setShowData((showData) => ({
-      ...showData,
-      ...active,
-    }));
-  }
   return (
-    <div
-      style={
-        {
-          // marginTop: "25px",
-        }
-      }
+    <ThemeProvider
+      breakpoints={["xxxl", "xxl", "xl", "lg", "md", "sm", "xs", "xxs"]}
+      minBreakpoint="xxs"
     >
-      <>
-        <Row id="titleRow">
-          <Col lg="4">
-            <div id="sectionSelect">
-              <div
-                onClick={(e) => contentPicker("tools", e)}
-                className={`${showData.tools ? "activeMenu" : "inactiveMenu"}`}
-              >
-                Design
-              </div>
-            </div>
-          </Col>
-          <Col lg="4">
-            <div id="sectionSelect">
-              <div
-                onClick={(e) => contentPicker("experience", e)}
-                className={`${
-                  showData.experience ? "activeMenu" : "inactiveMenu"
-                }`}
-              >
-                Photo
-              </div>
-            </div>
-          </Col>
-          <Col lg="4">
-            <div id="sectionSelect">
-              <div
-                onClick={(e) => contentPicker("projects", e)}
-                className={`${
-                  showData.projects ? "activeMenu" : "inactiveMenu"
-                }`}
-              >
-                Video
-              </div>
-            </div>
-          </Col>
-        </Row>
-        {/* <Row>
-          <Col>
-            <div>{showData.tools && <Tools />}</div>
-          </Col>
-        </Row>
+      <div className="App">
+        <header className="App-header">
+          <Row>
+            <Col lg="4" sm="12">
+              <div id="headerText">
+                <Row id="welcomeText">
+                  <h3>Hi I'm </h3>
+                  <h1>
+                    <bold>Brian Azubuike.</bold>
+                  </h1>
+                </Row>
 
-        <Row>
-          <Col>
-            <div>{showData.experience && <Experience />}</div>
-          </Col>
-        </Row>
-
-        <Row>
-          <div>{showData.projects && <Projects />}</div>
-        </Row> */}
-      </>
-    </div>
+                <h4 className="mainText">
+                  <strong>Freelancer Content Creator</strong>
+                </h4>
+                <h6 className="mainText">Photography.</h6>
+                <h6 className="mainText">Video Production.</h6>
+                <h6 className="mainText">Web Design.</h6>
+                <Footer />
+              </div>
+            </Col>
+            <Col lg="8" sm="12">
+              <div className="homeContainer">
+                <CreativeHome />
+              </div>
+            </Col>
+          </Row>
+        </header>
+        <body></body>
+      </div>
+    </ThemeProvider>
   );
 }
 

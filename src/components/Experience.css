@@ -41,7 +41,7 @@
 @keyframes fadeIn {
   from {
     opacity: 0%;
-    margin-left:200px
+    margin-left: 200px;
   }
 
   to {
@@ -51,16 +51,16 @@
 }
 
 .expDetail li {
-    margin: 20px 2px;
-    color: rgb(62, 62, 62);
-    overflow: hidden;
-    animation-name: fadeIn;
-    animation-duration: 1s;
-    text-decoration: dotted;
+  margin: 20px 2px;
+  color: rgb(62, 62, 62);
+  overflow: hidden;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  text-decoration: dotted;
 }
 .expDetail h2 {
-  font-weight:bold;
-  color:#dd0000a8;
+  font-weight: bold;
+  color: #dd0000a8;
   /* text-decoration: underline; */
 }
 
@@ -85,18 +85,18 @@
   margin-right: 5px;
 }
 
-.activeCompany{
+.activeCompany {
   margin: 22px 15px;
   height: 100px;
   opacity: 100%;
 }
-.inactiveCompany{
+.inactiveCompany {
   margin: 22px 15px;
   height: 100px;
   opacity: 50%;
 }
 
-.inactiveCompany:hover{
+.inactiveCompany:hover {
   opacity: 100%;
   animation-name: lightUp;
   animation-duration: 0.5s;
@@ -104,7 +104,7 @@
   animation-direction: alternate;
   cursor: pointer;
 }
-.inactiveCompany :not(:hover){
+.inactiveCompany :not(:hover) {
   opacity: 50%;
   animation-name: dimDown;
   animation-duration: 1s;
@@ -131,14 +131,13 @@
   }
 }
 
-
 .experienceBox h4 {
   margin: auto;
 }
 
 .experienceBox img {
-    max-width: 125px;
-    margin: auto;
+  max-width: 125px;
+  margin: auto;
 }
 
 #PullupWork img {
@@ -157,12 +156,11 @@
   width: 100%;
 }
 .expBox {
-    margin: auto;
-    padding-top: 10px
+  margin: auto;
+  padding-top: 10px;
 }
 
-
-#titleText{
+#titleText {
   color: rgba(0, 0, 0, 0.475);
   margin: 10px 5px;
   font-size: 35px;
@@ -176,5 +174,14 @@
   width: 40%;
 }
 
+.godripImage img {
+  width: 90%;
+}
 
+.neverunblessedImage img {
+  width: 80%;
+}
 
+.logoImage img {
+  width: 50%;
+}

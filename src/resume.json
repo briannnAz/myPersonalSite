@@ -1,69 +1,90 @@
 {
-    "Experience": {
-        "IGN": {
-            "Work": [
-            "Coordinate & Plan Agile Sprints within Product, Engineering, & DevOps Teams",
-            "Develop UI components with NextJS, MaterialUI, & StoryBook for our Content Management System and IGN.com site.",
-            "Develop our NodeJS backend to manage dataflow from our GraphQL database and numerous API datasources. ",
-            "Manage source control & deploy builds to AWS containers with GIT & Jenkins "
-        ]},
-        "ADP": { 
-            "Work":[
-            "Deploy to Docker Containers with Jenkins",
-            "Manage No SQL & SQL Databases",
-            "Coordinate & Plan Agile Sprints",
-            "Fullstack JS Web Development with AngularJS & NodeJS",
-            "Managed data from REST API Calls."
-        ]},
-        "Colgate": {
-            "Work":[
-            "Planned recreation of Colgate Smart Label Pages",
-            "Utilized Adobe Experience Manager to create UI templates with Custom CSS",
-            "Deployed project for 300+ products."
-        ]},
-        "Pullup": {
-            "Work":[
-            "Created Mock Ups for website redesign",
-            "Utilized SquareSpace to implement changes",
-            "Created Multimedia content for Social Media"
-        ]}
+  "Experience": {
+    "IGN": {
+      "Work": [
+        "Coordinate & Plan Agile Sprints within Product, Engineering, & DevOps Teams",
+        "Develop UI components with NextJS, MaterialUI, & StoryBook for our Content Management System and IGN.com site.",
+        "Develop our NodeJS backend to manage dataflow from our GraphQL database and numerous API datasources. ",
+        "Manage source control & deploy builds to AWS containers with GIT & Jenkins "
+      ]
     },
-    "Tools": {
-        "designTools": [
-            "Figma",
-            "Sketch",
-            "Invision"
-        ],
-        "developerTools": [
-            "Javascript",
-            "NodeJS",
-            "ExpressJS",
-            "GIT",
-            "Bitbucket"
-        ],
-        "dataTools":[
-            "NoSQL",
-            "Cassandra",
-            "SQL",
-            "GraphQL",
-            "RESTAPI"
-        ],
-        "frontendTools":[
-            "HTML",
-            "CSS",
-            "NextJS",
-            "Angular",
-            "React",
-            "BootStrap",
-            "MaterialUI"
-        ],
-        "mediaTools": [
-            "GIMP",
-            "Adobe Photoshop",
-            "Adobe Lightroom",
-            "Adobe Illustrator",
-            "Adobe Premiere",
-            "Hitfilm Express"
-        ]
+    "ADP": {
+      "Work": [
+        "Deploy to Docker Containers with Jenkins",
+        "Manage No SQL & SQL Databases",
+        "Coordinate & Plan Agile Sprints",
+        "Fullstack JS Web Development with AngularJS & NodeJS",
+        "Managed data from REST API Calls."
+      ]
+    },
+    "Colgate": {
+      "Work": [
+        "Planned recreation of Colgate Smart Label Pages",
+        "Utilized Adobe Experience Manager to create UI templates with Custom CSS",
+        "Deployed project for 300+ products."
+      ]
+    },
+    "Pullup": {
+      "Work": [
+        "Created Mock Ups for website redesign",
+        "Utilized SquareSpace to implement changes",
+        "Created Multimedia content for Social Media"
+      ]
     }
+  },
+  "Tools": {
+    "designTools": ["Figma", "Sketch", "Invision"],
+    "developerTools": ["Javascript", "NodeJS", "ExpressJS", "GIT", "Bitbucket"],
+    "dataTools": ["NoSQL", "Cassandra", "SQL", "GraphQL", "RESTAPI"],
+    "frontendTools": [
+      "HTML",
+      "CSS",
+      "NextJS",
+      "Angular",
+      "React",
+      "BootStrap",
+      "MaterialUI"
+    ],
+    "mediaTools": [
+      "GIMP",
+      "Adobe Photoshop",
+      "Adobe Lightroom",
+      "Adobe Illustrator",
+      "Adobe Premiere",
+      "Hitfilm Express"
+    ]
+  },
+  "Logos": [
+    {
+      "name": "Neverunblessed",
+      "src": "/assets/logos/neverunblessed-logo.png"
+    },
+    { "name": "Go Drip App", "src": "/assets/logos/godrip-logo.png" },
+    { "name": "ESP Enterprises", "src": "/assets/logos/espe-logo.png" },
+    { "name": "Path 2 Fittality", "src": "/assets/logos/p2f-logo.png" }
+  ],
+  "WebWork": [
+    {
+      "title": "Neverunblessed",
+      "name": "neverunblessed",
+      "href": "www.neverunblessed.com",
+      "description": "Full creation for Branding & Ecommerce Site",
+      "src": "/assets/logos/neverunblessed-logo.png"
+    },
+    {
+      "title": "Go Drip App",
+      "name": "godrip",
+      "src": "/assets/logos/godrip-logo.png",
+      "href": "www.godripapp.com",
+      "description": "Optimization with layout, descriptions, and logo"
+    },
+    {
+      "title": "Pullup Parking App",
+      "name": "pullup",
+      "src": "/assets/Pullup-Logo.png",
+      "href": "www.pullup.io",
+      "description": "Optimization with layout, descriptions, and logo",
+      "note": "Site unavailable but Design and files can be shown if requested."
+    }
+  ]
 }

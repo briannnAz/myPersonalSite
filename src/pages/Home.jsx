@@ -1,7 +1,7 @@
 import { React, useState } from "react";
 import Tools from "../components/Tools";
 import Experience from "../components/Experience";
-import Projects from "../components/Projects";
+import Photography from "../components/Photography";
 import { Row, Col } from "react-bootstrap";
 import "./Home.css";
 
@@ -67,13 +67,13 @@ function Home() {
           <Col lg="4">
             <div id="sectionSelect">
               <a
-                onClick={(e) => contentPicker("projects", e)}
-                href="#projectsSection"
+                // onClick={(e) => contentPicker("projects", e)}
+                // href="#projectsSection"
                 className={`${
                   showData.projects ? "activeMenu" : "inactiveMenu"
                 }`}
               >
-                Create
+                Projects
               </a>
             </div>
           </Col>
@@ -91,9 +91,7 @@ function Home() {
             </Col>
           </Row>
 
-          <Row id="projectsSection">
-            <Projects />
-          </Row>
+          <Row id="projectsSection">{/* <Photography /> */}</Row>
         </Row>
       </>
     </div>

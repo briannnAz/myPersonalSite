@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 import { faPenRuler } from "@fortawesome/free-solid-svg-icons";
 import { faPhotoFilm } from "@fortawesome/free-solid-svg-icons";
-import ResumeBreakDown from '../resume.json';
+import ResumeBreakDown from "../resume.json";
 
 const ToolGenerator = (props) => {
   let toolList = [];
@@ -17,19 +17,19 @@ const ToolGenerator = (props) => {
   return toolList;
 };
 
-
 function Tools() {
   return (
     <div id="mainContainer">
       {/* <h1>Tools</h1> */}
-      
+
       <div id="titleText">Tools I Use</div>
       <p className="sectionDesc">
-        When it comes to getting any job done, these are my tools of choice but, it doesnt stop here. I'm always willing to try something new. 
+        When it comes to getting any job done, these are my tools of choice but,
+        it doesnt stop here. I'm always willing to try something new.
       </p>
       <div className="container">
         <div className="textBox">
-          <Col sm="12" lg="4">
+          <Col className="toolContainer" sm="12" lg="4">
             <div className="toolTitle">
               <FontAwesomeIcon icon={faPenRuler} />
               <h2 className="titleText">Design</h2>
@@ -41,7 +41,7 @@ function Tools() {
             <div></div>
             {/* <div id="designTools"></div> */}
           </Col>
-          <Col sm="12" lg="4">
+          <Col className="toolContainer" sm="12" lg="4">
             <div className="toolTitle">
               <FontAwesomeIcon icon={faLaptopCode} />
               <h2 className="titleText">Develop</h2>
@@ -53,7 +53,7 @@ function Tools() {
             <div></div>
             {/* <div id="devTools"></div> */}
           </Col>
-          <Col sm="12" lg="4">
+          <Col className="toolContainer" sm="12" lg="4">
             <div className="toolTitle">
               <FontAwesomeIcon icon={faPhotoFilm} />
               <h2 className="titleText">Media</h2>

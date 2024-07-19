@@ -1,6 +1,9 @@
 #titleRow {
   margin-top: 2.8em;
 }
+#contentSection {
+  width: 100%;
+}
 
 #selected {
   display: flex;
@@ -17,7 +20,7 @@
 
 #projectRow {
   padding-top: 1em;
-  background-color: black;
+  /* background-color: black; */
   border-radius: 8px;
   padding: 50px;
   margin-bottom: 30px;
@@ -86,6 +89,7 @@
   height: 800px;
   overflow-y: scroll;
   scrollbar-width: none;
+  width: 100%;
 }
 
 @keyframes lightUp {

@@ -1,4 +1,4 @@
-#mainContainer::after{
+#mainContainer::after {
   content: "Scroll in each box to see all the tools.";
   margin: auto;
   color: white;
@@ -28,6 +28,11 @@
   /* scrollbar-color: rebeccapurple green; */
   scrollbar-width: thin;
   scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.toolContainer {
+  scroll-snap-align: start;
 }
 
 /* .container::after {
@@ -87,6 +92,24 @@
   height: 250px;
 }
 
+.logos {
+  display: inline;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+  text-align: center;
+  color: black;
+  width: 100%;
+  overflow: scroll;
+  height: 350px;
+}
+.logos img {
+  max-width: 300px;
+  margin: auto;
+}
+
 .toolItem {
   font-size: 25px;
   margin: 5px;
@@ -98,13 +121,11 @@
   color: #dd0000a8;
 }
 
-#titleText{
+#titleText {
   color: rgba(0, 0, 0, 0.475);
   margin: 10px 5px;
   font-size: 35px;
 }
-
-
 
 @keyframes fadeIn {
   from {
@@ -117,11 +138,11 @@
 }
 
 @keyframes fadeOut {
-    from {
-      opacity: 50%;
-    }
-  
-    to {
-      opacity: 0%;
-    }
+  from {
+    opacity: 50%;
   }
+
+  to {
+    opacity: 0%;
+  }
+}

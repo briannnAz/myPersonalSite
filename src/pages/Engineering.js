@@ -1,6 +1,6 @@
 import "./Main.css";
 import Home from "./Home";
-import Footer from "../components/Footer";
+import Footer from "../components/DevFooter";
 import { Row, Col } from "react-bootstrap";
 import ThemeProvider from "react-bootstrap/ThemeProvider";
 import MePic from "./../assets/meCasual.png";
@@ -24,14 +24,9 @@ function Engineering() {
                 </Row>
 
                 <h4 className="mainText">
-                  <strong>Designer</strong>.
+                  <strong>Full Stack Software Engineer</strong>.
                 </h4>
-                <h4 className="mainText">
-                  <strong>Developer</strong>.
-                </h4>
-                <h4 className="mainText">
-                  <strong>Creator</strong>.
-                </h4>
+                <h6>An Engineer that also loves UI/ UX Design.</h6>
                 <Footer />
               </div>
             </Col>

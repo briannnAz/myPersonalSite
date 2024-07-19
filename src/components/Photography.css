@@ -1,0 +1,98 @@
+.contentBox {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-between;
+}
+
+#photos div {
+  width: 45%;
+  border-radius: 2px;
+  /* height: 125px; */
+  background-color: black;
+  margin: 5px 1px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+}
+
+#photos {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#photographyBox {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(750px, 1fr));
+  grid-template-rows: masonry;
+}
+
+#photographyBox img {
+  max-width: 49%;
+  height: auto;
+  border-radius: 2px;
+  background-color: black;
+  margin: 5px 1px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+.disappear {
+  display: none;
+}
+
+.animatePics {
+  color: white;
+  opacity: 50%;
+  height: 200px;
+  animation-duration: 1s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+.animatePics:hover {
+  opacity: 100%;
+  overflow: hidden;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+@keyframes slidein {
+  from {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 50%;
+  }
+}
+
+#titleText {
+  font-size: 35px;
+  color: white;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
