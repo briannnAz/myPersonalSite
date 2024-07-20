@@ -11,8 +11,8 @@ function Engineering() {
       breakpoints={["xxxl", "xxl", "xl", "lg", "md", "sm", "xs", "xxs"]}
       minBreakpoint="xxs"
     >
-      <div className="App">
-        <header className="App-header">
+      <div className="app">
+        <div className="app-main">
           <Row>
             <Col lg="4" sm="12">
               <div id="headerText">
@@ -36,7 +36,7 @@ function Engineering() {
               </div>
             </Col>
           </Row>
-        </header>
+        </div>
         <body></body>
       </div>
     </ThemeProvider>

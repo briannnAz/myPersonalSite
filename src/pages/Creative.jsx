@@ -11,8 +11,8 @@ function Creative() {
       breakpoints={["xxxl", "xxl", "xl", "lg", "md", "sm", "xs", "xxs"]}
       minBreakpoint="xxs"
     >
-      <div className="App">
-        <header className="App-header">
+      <div className="app">
+        <header className="app-main">
           <Row>
             <Col lg="4" sm="12">
               <div id="headerText">
